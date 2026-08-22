@@ -11,3 +11,10 @@ __pycache__/
 
 # Environment variables
 .env
+
+# Model creation folders
+models/
+.pkl
+
+# Dataset folders
+dataset/
