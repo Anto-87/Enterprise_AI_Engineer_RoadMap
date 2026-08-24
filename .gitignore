@@ -13,8 +13,8 @@ __pycache__/
 .env
 
 # Model creation folders
-models/
-*.pkl
+#models/
+#*.pkl
 
 # Dataset folders
 dataset/
