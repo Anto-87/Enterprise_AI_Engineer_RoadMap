@@ -14,7 +14,10 @@ __pycache__/
 
 # Model creation folders
 models/
-.pkl
+*.pkl
 
 # Dataset folders
 dataset/
+
+# model logs
+logs/
