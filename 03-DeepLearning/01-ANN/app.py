@@ -4,17 +4,25 @@ import pandas as pd
 import tensorflow as tf
 from sklearn.preprocessing import LabelEncoder, StandardScaler,OneHotEncoder
 import pickle 
+from pathlib import Path
+
+# Get the directory where app.py exists
+BASE_DIR = Path(__file__).resolve().parent
+
+# Model directory
+MODEL_DIR = BASE_DIR / "models"
+
 
 # load the trained model
-model = tf.keras.models.load_model('models/ann_model.h5')
+model = tf.keras.models.load_model(MODEL_DIR / 'ann_model.h5')
 
-with open("models/label_encoder_gender.pkl","rb") as f:
+with open(MODEL_DIR / "label_encoder_gender.pkl","rb") as f:
     label_encoder_gender = pickle.load(f)
 
-with open("models/onehot_encoder_geo.pkl","rb") as f:
+with open(MODEL_DIR / "onehot_encoder_geo.pkl","rb") as f:
     label_encoder_geo = pickle.load(f)
 
-with open("models/scaler.pkl","rb") as f:
+with open(MODEL_DIR / "scaler.pkl","rb") as f:
     scaler = pickle.load(f)
 
 # Streamlit app
