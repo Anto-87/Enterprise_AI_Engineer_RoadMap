@@ -22,3 +22,8 @@ dataset/
 # model logs
 logs/
 regessionlogs/
+
+# files
+*.pdf
+*.txt
+*.json
