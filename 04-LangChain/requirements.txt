@@ -17,3 +17,8 @@ langchain_chroma
 beautifulsoup4
 streamlit
 langchain-ollama
+langchain-groq
+fastapi
+uvicorn
+langserve
+sse_starlette
