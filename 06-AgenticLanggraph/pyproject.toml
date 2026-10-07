@@ -1,0 +1,21 @@
+[project]
+name = "06-agenticlanggraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Anto-87", email = "Antochris1987@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.4.3",
+    "langgraph>=1.2.14",
+    "langsmith>=0.14.4",
+]
+
+[project.scripts]
+06-agenticlanggraph = "06_agenticlanggraph:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
