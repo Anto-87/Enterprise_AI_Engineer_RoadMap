@@ -30,3 +30,6 @@ regessionlogs/
 
 # uv packages
 uv.lock
+
+# checkpoint files
+.langgraph_api/
