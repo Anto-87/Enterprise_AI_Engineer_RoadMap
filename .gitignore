@@ -27,6 +27,7 @@ regessionlogs/
 *.pdf
 *.txt
 *.json
+*.db
 
 # uv packages
 uv.lock
