@@ -26,9 +26,13 @@ dependencies = [
     "langgraph>=1.2.19",
     "pypdf>=6.21.4",
     "python-dotenv>=1.2.4",
+    "pytube>=15.0.0",
     "sentence-transformers>=6.2.0",
     "streamlit>=1.66.1",
+    "unstructured>=0.27.36",
+    "validators==0.28.1",
     "wikipedia>=1.4.0",
+    "youtube-transcript-api>=1.2.4",
 ]
 
 [project.scripts]
